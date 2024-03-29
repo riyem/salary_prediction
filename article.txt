@@ -1,0 +1,63 @@
+today i am going to build a machine learning web app from scratch using real world data from stackoverflow developer survey. 
+1 analyze/clean
+2 cretae and train model with sickit learn
+3 build web app with streamlit lib
+
+final output
+salary prediction app based on info entered by the user:
+1 country
+2 education level 
+3 years of experience
+
+explore part :
+pie chart (number of data for diff countries)
+histogram(y based on diff countries)
+line plot(y based on experience)
+
+data:survey_results_public.csv (about 89 thousandish records)
+
+execution
+1)created a folder(salary_prediction_project)he file for this article, the zipped folder containng survey data downloaded from "https://insights.stackoverflow.com/survey"
+2)opened terminal and created a python virtual env inside the folder i creatd. 
+conda create --name salary_prediction
+then i activate the env:conda activate salary_prediction
+then pip install streamlit
+then pip install numpy pandas
+then pip install matplotlib
+then pip install scikit learn
+pip install ipython,ipkernel,jupyter
+
+now we need to install a kernal for this virtual environment:
+ipython kernel install --user --name=salarypred
+
+then:jupyter notebook
+
+
+
+
+
+🚀 Exciting News! I've just completed building a machine learning web app from scratch using real-world data from the Stack Overflow Developer Survey, inspired by the fantastic tutorial by Patrick Loeber! 🌐📊
+
+Here's what I've accomplished:
+
+Analyzed and Cleaned Data: I meticulously explored and cleaned the Stack Overflow Developer Survey data, following the insightful tutorial by Patrick Loeber to ensure its accuracy and relevance for machine learning modeling.
+Created and Trained Model with scikit-learn: Leveraging scikit-learn, I developed and trained a robust machine learning model capable of predicting salaries based on key factors such as country, education level, and years of experience.
+Built Web App with Streamlit: Using the Streamlit library, as guided by Patrick Loeber's tutorial, I transformed my machine learning model into an interactive web application, providing users with an intuitive platform to input their information and receive accurate salary predictions in real-time.
+The final output is a dynamic salary prediction app, enabling users to effortlessly input their:
+
+Country
+Education level
+Years of experience
+In the explore section of the app, users can visualize insightful data through:
+
+Pie Chart: Displaying the distribution of data across different countries.
+Histogram: Offering insights into salary distribution based on various countries.
+Line Plot: Illustrating trends in salary based on years of experience.
+I'm thrilled with the outcome of this project and excited to share it with the community. If you'd like to explore the app or have any feedback, I'd love to connect!
+
+#DataScience #MachineLearning #Streamlit #DataAnalysis #PortfolioProjects #DataAnalytics #PythonProgramming #HRData #HRAnalytics #LinkedInNetworking #DataScientists #DataJobs
+
+Let's continue making strides in the world of data science together! 🌟
+
+
+
